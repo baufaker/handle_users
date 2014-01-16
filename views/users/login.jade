@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1 #{title}
+  div.signup
+    form(method="post")
+      div
+        div
+          span.label Name:
+          input(type="text" name="name" id="editName")
+        div
+          span.label Password:
+          input(type="password" name="password" id="editName")
+        div#editUserSubmit
+          input(type="submit", value="Log in")
+      a(href="/")!= "Back to homepage"

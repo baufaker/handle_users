@@ -1,0 +1,1 @@
+O Login do usuário, atualmente, está sendo feito por uma autenticação muito ruim. Melhorar o método de autenticação.

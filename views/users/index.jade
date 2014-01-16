@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  a(href='/dashboard')!= session_name
+  h1= title
+  h3 These are the users who are currently in the database:
+  ul#allUsers
+    - each user in allUsers
+      li=user.name  
+  a(href="/signup")!="Signup"
+  br
+  a(href="/login")!="Login"

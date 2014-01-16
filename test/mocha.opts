@@ -1,0 +1,4 @@
+--require should
+--require spec
+--ui bdd
+--recursive
